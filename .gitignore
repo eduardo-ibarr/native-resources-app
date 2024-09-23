@@ -1,15 +1,76 @@
-*.iml
-.gradle
+# Diretórios de build
+/build/
+/app/build/
+
+/captures/
+/.externalNativeBuild/
+/.gradle/
+/.idea/
+/.local/
 /local.properties
-/.idea/caches
+/.cxx/
+/.externalNativeBuild/
+.cxx/
+
+# Arquivos de log
+*.log
+
+# Arquivos de caches do Android Studio
+/.caches/
+/*.iml
+/.idea/workspace.xml
 /.idea/libraries
 /.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+/.idea/*.iws
+/.idea/gradle.xml
+/.idea/vcs.xml
+/.idea/misc.xml
+.DS_Store
+
+# Arquivos de sistema
+*.class
+*.apk
+*.ap_
+*.dex
+*.jar
+*.keystore
+*.hprof
+*.so
+*.DS_Store
+*.suo
+*.swp
+*.tmp
+*.tmp
+*.vscode
+*.orig
+.idea/
+/.gradle/
+local.properties
+
+# Diretórios de dependências
+/.gradle/
+/.gradle/
+/.idea/
+/local.properties
+/.classpath
+/.project
+/.settings
+
+# Outros
+*.log
+*.log.*
+*.stacktrace
+*.crt
+*.pem
+*.jks
+
+# Arquivos do Android Studio
+.idea/
+.gradle/
+local.properties
 .DS_Store
 /build
 /captures
-.externalNativeBuild
-.cxx
-local.properties
+.externalNativeBuild/
+cxx/
+app/**/build/
